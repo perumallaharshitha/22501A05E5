@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: border 0.2s ease-in-out;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+button {
+  width: 100%;
+  background: #4a90e2;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #357abd;
+}
+
+p {
+  margin-top: 10px;
+  text-align: center;
+  color: #555;
+}
+
+p a {
+  color: #4a90e2;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  text-align: center;
+}
+.app-container {
+  text-align: center;
+}
+
+.main-heading {
+  margin-top: 40px;
+  font-size: 32px;
+  color: #2c3e50;
+  font-weight: bold;
+}
